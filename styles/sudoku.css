@@ -1,4 +1,4 @@
-.board table{
+#board{
     border: 3px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -6,7 +6,7 @@
     border-collapse: collapse;
 }
 
-.board td{
+#board td{
     border: 0.5px solid black;
     font-size: 200%;
     width: 50px;
@@ -14,19 +14,19 @@
     text-align: center;
 }
 
-.board td:nth-child(3n){
+#board td:nth-child(3n){
     border-right: 3px black solid;
 }
 
-.board tr:nth-child(3n){
+#board tr:nth-child(3n){
     border-bottom: 3px black solid;
 }
 
-.board td:hover{
+#board td:hover{
     background-color: #f5dd90;
 }
 
-.numbers table{
+#numbers{
     border: 3px solid black;
     margin-right: auto;
     margin-left: auto;
@@ -34,7 +34,7 @@
     border-collapse: collapse;
 }
 
-.numbers td{
+#numbers td{
     border: 0.5px solid black;
     font-size: 200%;
     height: 50px;
@@ -48,4 +48,8 @@
 
 .error{
     background-color: #f76c5e;
+}
+
+.selected{
+    background-color: green;
 }
